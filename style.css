@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/SourceCodePro-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: lightgray;
+}
+
+* {
+    line-height: 1.5;
+    font-family: 'Source Code Pro';
+    margin: 1vh;
+    
+}
+
+
+div div {
+    width: 50%;
+    border: 2px cornsilk solid;
+    border-radius: 3vh;
+    padding: 1vh;
+
+}
