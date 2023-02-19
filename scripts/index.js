@@ -10,7 +10,7 @@ fetch(urlFetch)
     .then(data => {
         const imageUrl = data.url;
         const title = data.title;
-
+        const apodDate = data.date;
         // display APDD image on website
         const image = document.createElement('img');
         image.src = imageUrl;
@@ -19,7 +19,13 @@ fetch(urlFetch)
         // add image text
         const titleText = document.createElement('p');
         titleText.innerHTML = title;
+        titleText.style.fontStyle = "italic";
         divSkills.appendChild(titleText);
+
+        // add date
+        const dateText = document.createElement('p');
+        dateText.innerHTML = apodDate;
+        divSkills.appendChild(dateText);
 
     })
     .catch(error => {
