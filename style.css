@@ -35,3 +35,9 @@ div div {
     width: 50%;
     border-radius: 2vh;
 }
+
+#skills :nth-child(6) {
+    position: relative;
+    bottom: 50vh;
+    font-weight: bolder;
+}
