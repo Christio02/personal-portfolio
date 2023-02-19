@@ -11,15 +11,27 @@ body {
 * {
     line-height: 1.5;
     font-family: 'Source Code Pro';
-    margin: 1vh;
+    margin: 2vh;
     
 }
-
-
+.main h1 {
+    text-align: center;
+}
+div {
+    margin-top: 2;
+}
 div div {
+    background-color: whitesmoke;
     width: 50%;
     border: 2px cornsilk solid;
     border-radius: 3vh;
     padding: 1vh;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
 
+}
+#skills img {
+    width: 50%;
+    border-radius: 2vh;
 }
