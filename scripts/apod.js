@@ -11,6 +11,7 @@ fetch(urlFetch)
         const imageUrl = data.url;
         const title = data.title;
         const apodDate = data.date;
+        
         // display APDD image on website
         const image = document.createElement('img');
         image.src = imageUrl;
