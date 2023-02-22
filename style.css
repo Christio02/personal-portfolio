@@ -14,6 +14,15 @@ body {
     margin: 2vh;
     
 }
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    left: -10%;
+}
 .main h1 {
     text-align: center;
 }
@@ -43,6 +52,10 @@ div div {
     font-weight: bolder;
 }
 
+#skills div {
+    border: none;
+}
+
 .imageholder{
     position: relative;
     float: left;
@@ -52,6 +65,7 @@ div div {
     position: absolute;
     top: 0;
 }
+
 .caption{
     position: absolute;
     bottom: -9%;
@@ -59,7 +73,28 @@ div div {
     right: 0;
 }
 
-.find-me #github {
-    width: 5%;
+
+.find-me img {
+    width: 12%;
     display: inline;
+}
+
+.find-me div {
+    border: none;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul #horizontal-align {
+    min-width: 20vh;
+    padding-top: 20px;
+
+}
+
+ul #horizontal-align li {
+    display: inline;
+
 }
