@@ -38,6 +38,28 @@ div div {
 
 #skills :nth-child(6) {
     position: relative;
-    bottom: 50vh;
+    bottom: 65vh;
+    left: 10vh;
     font-weight: bolder;
+}
+
+.imageholder{
+    position: relative;
+    float: left;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+}
+.caption{
+    position: absolute;
+    bottom: -9%;
+    left: 30%;
+    right: 0;
+}
+
+.find-me #github {
+    width: 5%;
+    display: inline;
 }

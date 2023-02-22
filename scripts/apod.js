@@ -19,12 +19,14 @@ fetch(urlFetch)
 
         // add image text
         const titleText = document.createElement('p');
+        titleText.className = "title";
         titleText.innerHTML = title;
         titleText.style.fontStyle = "italic";
         divSkills.appendChild(titleText);
 
         // add date
         const dateText = document.createElement('p');
+        dateText.className = "caption";
         dateText.innerHTML = apodDate;
         divSkills.appendChild(dateText);
 
