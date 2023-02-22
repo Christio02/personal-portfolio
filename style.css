@@ -83,18 +83,3 @@ div div {
     border: none;
 }
 
-.table {
-    display: table;
-    margin: 0 auto;
-}
-
-ul #horizontal-align {
-    min-width: 20vh;
-    padding-top: 20px;
-
-}
-
-ul #horizontal-align li {
-    display: inline;
-
-}
