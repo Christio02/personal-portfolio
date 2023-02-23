@@ -73,13 +73,34 @@ div div {
     right: 0;
 }
 
+.find-me {
+    position: relative;
+    width: 100%;
+
+}
+
+.find-me .table-contact {
+    position: absolute;
+    width: 100%;
+}
+
 
 .find-me img {
-    width: 12%;
+    width: 15%;
     display: inline;
+    right: 20%;
+}
+
+.find-me li {
+    width: 20%;
+    margin: -2%;
+    padding: none;
+    left: -2%;
 }
 
 .find-me div {
     border: none;
+ 
 }
+
 
