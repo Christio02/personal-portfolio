@@ -8,6 +8,12 @@ body {
     background-color: lightgray;
 }
 
+.main {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
 * {
     line-height: 1.5;
     font-family: 'Source Code Pro';
@@ -27,11 +33,10 @@ ul li {
     text-align: center;
 }
 div {
-    margin-top: 2;
+    margin-top: 2;  
 }
 div div {
     background-color: whitesmoke;
-    width: 50%;
     border: 2px cornsilk solid;
     border-radius: 3vh;
     padding: 1vh;
@@ -73,9 +78,12 @@ div div {
     right: 0;
 }
 
+
 .find-me {
     position: relative;
     width: 100%;
+    border: none;
+    
 
 }
 
@@ -89,6 +97,11 @@ div div {
     width: 15%;
     display: inline;
     right: 20%;
+    transition: all 300ms ease-in-out   ;
+}
+
+.find-me img:hover {
+    scale: 1.25;
 }
 
 .find-me li {
